@@ -7,7 +7,7 @@ client = commands.Bot(command_prefix='&' , intents=discord.Intents.all())
 
 @client.event
 async def on_ready():
-  await client.change_presence(activity=discord.Game('Yui'))
+  await client.change_presence(activity=discord.Game('Sae'))
   print('Logged in as {0.user}'.format(client))
 
 @client.command(aliases=['p', 'q'])
