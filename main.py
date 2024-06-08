@@ -3,7 +3,7 @@ import os
 from discord.ext import commands
 from keep_alive import keep_alive
 
-client = commands.Bot(command_prefix='&' , intents=discord.Intents.all())
+client = commands.Bot(command_prefix='!' , intents=discord.Intents.all())
 
 @client.event
 async def on_ready():
